@@ -126,7 +126,7 @@ window.onload = function () {
     context.lineWidth = 2;
   };
 
-  head = function () {
+  torse = function () {
     myStickman = document.getElementById("stickman");
     context = myStickman.getContext('2d');
     context.beginPath();
@@ -182,7 +182,7 @@ window.onload = function () {
     rightArm,
     leftArm,
     head,
-    head,
+    torse,
     frame4,
     frame3,
     frame2,
